@@ -1,7 +1,15 @@
 # Python
 
-## English
-Entries will be added here. Each entry: purpose, how to run, how it was verified.
+Public projects in this language, hosted in the [flipslidersand-labs](https://github.com/flipslidersand-labs) organization. Descriptions are the repositories' own.
 
-## 日本語
-成果物は順次追加します。各項目に、目的・実行方法・検証方法を書きます。
+Python の公開プロジェクトです。組織 [flipslidersand-labs](https://github.com/flipslidersand-labs) に置いています。説明は各リポジトリ自身のものです。
+
+| Project | Description |
+|---|---|
+| [doc-ingest](https://github.com/flipslidersand-labs/doc-ingest) | Document ingestion pipeline: external API docs / design docs / arxiv papers into Qdrant |
+| [nugget-rag-eval](https://github.com/flipslidersand-labs/nugget-rag-eval) | Nugget retrieval vs full-chunk RAG evaluation harness |
+| [search-engine](https://github.com/flipslidersand-labs/search-engine) | BM25 + vector hybrid search & RAG REST API (FastAPI + SQLite FTS5 + Ollama) |
+| [forge](https://github.com/flipslidersand-labs/forge) | Automatic GPU kernel optimizer: Triton kernel search for PyTorch operations |
+| [marketplace-lakehouse-reference](https://github.com/flipslidersand-labs/marketplace-lakehouse-reference) | Reference lakehouse architecture using PySpark, Delta Lake and Medallion Architecture |
+
+Small standalone entries will be added to this directory.

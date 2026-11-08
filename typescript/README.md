@@ -1,7 +1,12 @@
 # TypeScript
 
-## English
-Status: planned (no code yet). Each entry will state purpose, how to run, how it was verified.
+Public projects in this language, hosted in the [flipslidersand-labs](https://github.com/flipslidersand-labs) organization. Descriptions are the repositories' own.
 
-## 日本語
-状態: 未着手(コードはまだありません)。各項目に、目的・実行方法・検証方法を書きます。
+TypeScript の公開プロジェクトです。組織 [flipslidersand-labs](https://github.com/flipslidersand-labs) に置いています。説明は各リポジトリ自身のものです。
+
+| Project | Description |
+|---|---|
+| [loopnest-core](https://github.com/flipslidersand-labs/loopnest-core) | BtoB Quote-to-Billing platform (M01-M14) |
+| [knowledge-db-web](https://github.com/flipslidersand-labs/knowledge-db-web) | Web UI for knowledge-db (React) |
+
+Small standalone entries will be added to this directory.

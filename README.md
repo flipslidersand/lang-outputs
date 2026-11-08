@@ -12,11 +12,11 @@ Larger projects live in their own repositories and are linked from here.
 ### Layout
 | Directory | Language | Status |
 |---|---|---|
-| [python/](python/) | Python | scaffold |
-| [rust/](rust/) | Rust | scaffold |
-| [go/](go/) | Go | scaffold |
-| [typescript/](typescript/) | TypeScript | planned |
-| [javascript/](javascript/) | JavaScript | planned |
+| [python/](python/) | Python | linked |
+| [rust/](rust/) | Rust | linked |
+| [go/](go/) | Go | linked |
+| [typescript/](typescript/) | TypeScript | linked |
+| [javascript/](javascript/) | JavaScript | linked |
 | [java/](java/) | Java | planned |
 | [kotlin/](kotlin/) | Kotlin | planned |
 | [c/](c/) | C | planned |
@@ -25,12 +25,13 @@ Larger projects live in their own repositories and are linked from here.
 | [ruby/](ruby/) | Ruby | planned |
 | [php/](php/) | PHP | planned |
 | [swift/](swift/) | Swift | planned |
-| [sql/](sql/) | SQL | planned |
+| [elixir/](elixir/) | Elixir | linked |
+| [sql/](sql/) | SQL | linked |
 | [shell/](shell/) | Shell | planned |
 
 ### Policy
 - Every entry says what it does, how to run it, and how it was verified.
-- `scaffold` / `planned` mean no code yet. Only entries that exist here or link to a public repository count as work.
+- `linked` means public projects in the flipslidersand-labs organization are linked from the directory. `scaffold` / `planned` mean no code yet. Only entries that exist here or link to a public repository count as work.
 
 ---
 
@@ -46,4 +47,4 @@ Python・Rust・Go を皮切りに、書いたコードを言語別にまとめ�
 
 ### 方針
 - 各項目に「何をするか・実行方法・どう検証したか」を書きます。
-- `scaffold` / `planned` はコード未着手の意味です。このリポに実体があるか、公開リポへのリンクがあるものだけを成果とします。
+- `linked` は組織 flipslidersand-labs の公開プロジェクトへのリンクがあるという意味です。`scaffold` / `planned` はコード未着手の意味です。このリポに実体があるか、公開リポへのリンクがあるものだけを成果とします。
