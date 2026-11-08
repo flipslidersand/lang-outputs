@@ -17,17 +17,11 @@ Larger projects live in their own repositories and are linked from here.
 | [go/](go/) | Go | linked |
 | [typescript/](typescript/) | TypeScript | linked |
 | [javascript/](javascript/) | JavaScript | linked |
-| [java/](java/) | Java | planned |
-| [kotlin/](kotlin/) | Kotlin | planned |
-| [c/](c/) | C | planned |
-| [cpp/](cpp/) | C++ | planned |
-| [csharp/](csharp/) | C# | planned |
-| [ruby/](ruby/) | Ruby | planned |
-| [php/](php/) | PHP | planned |
-| [swift/](swift/) | Swift | planned |
 | [elixir/](elixir/) | Elixir | linked |
 | [sql/](sql/) | SQL | linked |
-| [shell/](shell/) | Shell | planned |
+
+### Planned (no code yet)
+[Java](java/), [Kotlin](kotlin/), [C](c/), [C++](cpp/), [C#](csharp/), [Ruby](ruby/), [PHP](php/), [Swift](swift/), [Shell](shell/), [Zig](zig/), [Lua](lua/), [Haskell](haskell/), [Scala](scala/), [Dart](dart/), [R](r/), [Julia](julia/), [Perl](perl/), [Clojure](clojure/), [OCaml](ocaml/), [Nim](nim/), [Fortran](fortran/)
 
 ### Policy
 - Every entry says what it does, how to run it, and how it was verified.
@@ -44,6 +38,9 @@ Python・Rust・Go を皮切りに、書いたコードを言語別にまとめ�
 
 ### 構成
 上の表のとおりです。現在は雛形のみで、成果物は順次追加します。
+
+### 未着手(コードなし)
+[Java](java/), [Kotlin](kotlin/), [C](c/), [C++](cpp/), [C#](csharp/), [Ruby](ruby/), [PHP](php/), [Swift](swift/), [Shell](shell/), [Zig](zig/), [Lua](lua/), [Haskell](haskell/), [Scala](scala/), [Dart](dart/), [R](r/), [Julia](julia/), [Perl](perl/), [Clojure](clojure/), [OCaml](ocaml/), [Nim](nim/), [Fortran](fortran/)
 
 ### 方針
 - 各項目に「何をするか・実行方法・どう検証したか」を書きます。
