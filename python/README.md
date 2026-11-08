@@ -12,4 +12,8 @@ Python の公開プロジェクトです。組織 [flipslidersand-labs](https://
 | [forge](https://github.com/flipslidersand-labs/forge) | Automatic GPU kernel optimizer: Triton kernel search for PyTorch operations |
 | [marketplace-lakehouse-reference](https://github.com/flipslidersand-labs/marketplace-lakehouse-reference) | Reference lakehouse architecture using PySpark, Delta Lake and Medallion Architecture |
 
-Small standalone entries will be added to this directory.
+## Entries
+
+| Entry | What | Verified by |
+|---|---|---|
+| [wordfreq.py](wordfreq.py) | Word frequency, top 3 ([spec](../spec/README.md)) | `bash scripts/verify.sh` compares output with `spec/expected.txt` |

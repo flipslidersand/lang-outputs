@@ -12,4 +12,8 @@ Rust の公開プロジェクトです。組織 [flipslidersand-labs](https://gi
 | [delta-forge](https://github.com/flipslidersand-labs/delta-forge) | Incremental computation engine: recomputes only what changed |
 | [fluxion](https://github.com/flipslidersand-labs/fluxion) | Safe Wasm-based job execution engine with capability-controlled sandboxing and DAG scheduling |
 
-Small standalone entries will be added to this directory.
+## Entries
+
+| Entry | What | Verified by |
+|---|---|---|
+| [wordfreq.rs](wordfreq.rs) | Word frequency, top 3 ([spec](../spec/README.md)) | `bash scripts/verify.sh` compares output with `spec/expected.txt` |

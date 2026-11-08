@@ -12,4 +12,8 @@ Go の公開プロジェクトです。組織 [flipslidersand-labs](https://gith
 | [cluster-pilot](https://github.com/flipslidersand-labs/cluster-pilot) | Kubernetes Operator for DataPipeline CRD (Go + Kubebuilder) |
 | [stream-rail](https://github.com/flipslidersand-labs/stream-rail) | Real-time stream processing engine with tumbling windows |
 
-Small standalone entries will be added to this directory.
+## Entries
+
+| Entry | What | Verified by |
+|---|---|---|
+| [wordfreq.go](wordfreq.go) | Word frequency, top 3 ([spec](../spec/README.md)) | `bash scripts/verify.sh` compares output with `spec/expected.txt` |

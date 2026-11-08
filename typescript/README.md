@@ -9,4 +9,8 @@ TypeScript の公開プロジェクトです。組織 [flipslidersand-labs](http
 | [loopnest-core](https://github.com/flipslidersand-labs/loopnest-core) | BtoB Quote-to-Billing platform (M01-M14) |
 | [knowledge-db-web](https://github.com/flipslidersand-labs/knowledge-db-web) | Web UI for knowledge-db (React) |
 
-Small standalone entries will be added to this directory.
+## Entries
+
+| Entry | What | Verified by |
+|---|---|---|
+| [wordfreq.ts](wordfreq.ts) | Word frequency, top 3 ([spec](../spec/README.md)) | `bash scripts/verify.sh` compares output with `spec/expected.txt` |

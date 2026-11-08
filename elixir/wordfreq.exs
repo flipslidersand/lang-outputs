@@ -1,0 +1,8 @@
+IO.read(:stdio, :eof)
+|> String.downcase()
+|> then(&Regex.scan(~r/[a-z]+/, &1))
+|> List.flatten()
+|> Enum.frequencies()
+|> Enum.sort_by(fn {w, n} -> {-n, w} end)
+|> Enum.take(3)
+|> Enum.each(fn {w, n} -> IO.puts("#{w} #{n}") end)

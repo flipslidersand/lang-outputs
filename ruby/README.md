@@ -1,7 +1,9 @@
 # Ruby
 
-## English
-Status: planned (no code yet). Each entry will state purpose, how to run, how it was verified.
+## Entries
 
-## 日本語
-状態: 未着手(コードはまだありません)。各項目に、目的・実行方法・検証方法を書きます。
+| Entry | What | Verified by |
+|---|---|---|
+| [wordfreq.rb](wordfreq.rb) | Word frequency, top 3 ([spec](../spec/README.md)) | `bash scripts/verify.sh` compares output with `spec/expected.txt` |
+
+小さな成果物です。お題は [spec](../spec/README.md) の単語頻度(上位3件)で、`bash scripts/verify.sh` が期待出力と照合します。

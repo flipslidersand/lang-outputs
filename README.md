@@ -10,22 +10,34 @@ holds small, runnable pieces plus a README stating what it is and how to run it.
 Larger projects live in their own repositories and are linked from here.
 
 ### Layout
-| Directory | Language | Status |
-|---|---|---|
-| [python/](python/) | Python | linked |
-| [rust/](rust/) | Rust | linked |
-| [go/](go/) | Go | linked |
-| [typescript/](typescript/) | TypeScript | linked |
-| [javascript/](javascript/) | JavaScript | linked |
-| [elixir/](elixir/) | Elixir | linked |
-| [sql/](sql/) | SQL | linked |
+| Directory | Language | Verified entry | Linked projects |
+|---|---|---|---|
+| [python/](python/) | Python | yes | yes |
+| [rust/](rust/) | Rust | yes | yes |
+| [go/](go/) | Go | yes | yes |
+| [typescript/](typescript/) | TypeScript | yes | yes |
+| [javascript/](javascript/) | JavaScript | yes | yes |
+| [elixir/](elixir/) | Elixir | yes | yes |
+| [sql/](sql/) | SQL | - | yes |
+| [shell/](shell/) | Shell | yes | - |
+| [ruby/](ruby/) | Ruby | yes | - |
+| [perl/](perl/) | Perl | yes | - |
+| [php/](php/) | PHP | yes | - |
+| [lua/](lua/) | Lua | yes | - |
+| [c/](c/) | C | yes | - |
+| [cpp/](cpp/) | C++ | yes | - |
+| [java/](java/) | Java | yes | - |
+| [kotlin/](kotlin/) | Kotlin | yes | - |
+| [scala/](scala/) | Scala | yes | - |
+| [r/](r/) | R | yes | - |
 
 ### Planned (no code yet)
-[Java](java/), [Kotlin](kotlin/), [C](c/), [C++](cpp/), [C#](csharp/), [Ruby](ruby/), [PHP](php/), [Swift](swift/), [Shell](shell/), [Zig](zig/), [Lua](lua/), [Haskell](haskell/), [Scala](scala/), [Dart](dart/), [R](r/), [Julia](julia/), [Perl](perl/), [Clojure](clojure/), [OCaml](ocaml/), [Nim](nim/), [Fortran](fortran/)
+[Swift](swift/), [C#](csharp/), [Zig](zig/), [Dart](dart/), [Julia](julia/), [Clojure](clojure/), [OCaml](ocaml/), [Nim](nim/), [Fortran](fortran/), [Haskell](haskell/)
 
 ### Policy
 - Every entry says what it does, how to run it, and how it was verified.
-- `linked` means public projects in the flipslidersand-labs organization are linked from the directory. `scaffold` / `planned` mean no code yet. Only entries that exist here or link to a public repository count as work.
+- **Verified entry**: a small program for the shared [word-frequency exercise](spec/README.md). `bash scripts/verify.sh` runs every language against the same input and expected output.
+- **Linked projects**: public projects in the flipslidersand-labs organization, linked from the language directory.
 
 ---
 
@@ -40,8 +52,9 @@ Python・Rust・Go を皮切りに、書いたコードを言語別にまとめ�
 上の表のとおりです。現在は雛形のみで、成果物は順次追加します。
 
 ### 未着手(コードなし)
-[Java](java/), [Kotlin](kotlin/), [C](c/), [C++](cpp/), [C#](csharp/), [Ruby](ruby/), [PHP](php/), [Swift](swift/), [Shell](shell/), [Zig](zig/), [Lua](lua/), [Haskell](haskell/), [Scala](scala/), [Dart](dart/), [R](r/), [Julia](julia/), [Perl](perl/), [Clojure](clojure/), [OCaml](ocaml/), [Nim](nim/), [Fortran](fortran/)
+[Swift](swift/), [C#](csharp/), [Zig](zig/), [Dart](dart/), [Julia](julia/), [Clojure](clojure/), [OCaml](ocaml/), [Nim](nim/), [Fortran](fortran/), [Haskell](haskell/)
 
 ### 方針
 - 各項目に「何をするか・実行方法・どう検証したか」を書きます。
-- `linked` は組織 flipslidersand-labs の公開プロジェクトへのリンクがあるという意味です。`scaffold` / `planned` はコード未着手の意味です。このリポに実体があるか、公開リポへのリンクがあるものだけを成果とします。
+- **検証済みの成果物**: 共通お題([単語頻度](spec/README.md))の小さなプログラムです。`bash scripts/verify.sh` が全言語を同じ入力と期待出力で実行します。
+- **リンクした公開プロジェクト**: 組織 flipslidersand-labs の公開プロジェクトです。

@@ -8,4 +8,8 @@ Elixir の公開プロジェクトです。組織 [flipslidersand-labs](https://
 |---|---|
 | [dev-pulse-live](https://github.com/flipslidersand-labs/dev-pulse-live) | Real-time GitHub activity dashboard built with Phoenix LiveView + Elixir |
 
-Small standalone entries will be added to this directory.
+## Entries
+
+| Entry | What | Verified by |
+|---|---|---|
+| [wordfreq.exs](wordfreq.exs) | Word frequency, top 3 ([spec](../spec/README.md)) | `bash scripts/verify.sh` compares output with `spec/expected.txt` |
